@@ -1,0 +1,24 @@
+{
+  "name": "weather-get",
+  "version": "1.0.5",
+  "description": "一个天气预报的命令行工具",
+  "main": "index.js",
+  "bin": {
+    "weather": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https:https://github.com/Simishere/weather.git"
+  },
+  "author": "simgl",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.3"
+  }
+}
